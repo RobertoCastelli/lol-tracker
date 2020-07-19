@@ -8,10 +8,16 @@
   max-width: 350px;
   margin: auto;
   text-align: center;
+  background-color: #f4f4f4;
 }
 
 .content {
   flex-grow: 1;
+}
+
+.bg-image {
+  width: 100%;
+  margin: 0 0 1rem 0;
 }
 
 ul {
@@ -25,6 +31,8 @@ img {
 
 fieldset {
   border-radius: 1rem;
+  border: 2px solid cadetblue;
+  background-color: white;
 }
 
 button {
@@ -35,11 +43,14 @@ button {
   color: white;
   font-weight: bold;
   margin: 1rem;
+  cursor: pointer;
 }
 
 input {
   border: 0;
-  border-bottom: 1px solid cadetblue;
+  border-bottom: 2px solid cadetblue;
   padding: 1rem;
+  background-color: white;
   text-align: center;
+  text-transform: lowercase;
 }
