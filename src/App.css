@@ -35,6 +35,12 @@ fieldset {
   background-color: white;
 }
 
+legend {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0 1rem;
+}
+
 button {
   background-color: cadetblue;
   outline: none;
