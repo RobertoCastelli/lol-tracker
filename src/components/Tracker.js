@@ -4,7 +4,7 @@ const Tracker = () => {
   //-------
   //GLOBALS
   //-------
-  const apiKey = `RGAPI-94052364-09a5-44bb-9f4b-7e6a7684dc3d`;
+  const apiKey = `RGAPI-720e26f9-bbc4-43de-83aa-a31f2d873b2d`;
   const encryptedID = `WiRUurtB56WCPODVbWW-_WdGmndH5ZVemP-7_LIf57uNBAE`;
   const cors = `https://cors-anywhere.herokuapp.com/`;
   const version = `10.14.1`;
