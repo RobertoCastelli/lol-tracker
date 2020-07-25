@@ -4,7 +4,7 @@ const Tracker = () => {
   //-------
   //GLOBALS
   //-------
-  const apiKey = `RGAPI-720e26f9-bbc4-43de-83aa-a31f2d873b2d`;
+  const apiKey = `RGAPI-f4722db3-2733-43be-b335-f2afdbfbd055`;
   const encryptedID = `WiRUurtB56WCPODVbWW-_WdGmndH5ZVemP-7_LIf57uNBAE`;
   const cors = `https://cors-anywhere.herokuapp.com/`;
   const version = `10.14.1`;
@@ -122,7 +122,11 @@ const Tracker = () => {
         <legend>{name}</legend>
         <div className="card-info">
           <div className="card-images">
-            <img src={`${iconUrl}/${icon}.png`} alt="icons" />
+            <img
+              classname="card-image-icon"
+              src={`${iconUrl}/${icon}.png`}
+              alt="icons"
+            />
           </div>
           {showLoading()}
           <ul>
